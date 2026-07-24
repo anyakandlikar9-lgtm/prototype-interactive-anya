@@ -1,0 +1,81 @@
+body{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../art_work/forest.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.ember{
+  display: flex;
+  align-items: center;
+}
+
+.info p{
+  font-size: 100px;
+  color:rgb(247, 240, 185);
+}
+
+.choose p{
+  font-size: 100px;
+  text-align: center;
+  margin-top: 150px;
+  color:rgb(243, 246, 216)
+}
+
+.characters{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Urvi img{
+  width: 1575px;
+}
+
+.Aysu {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transition: filter 0.5s ease;
+}
+
+.Urvi {
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transition: filter 0.5s ease;
+}
+
+.Aria{
+  cursor: pointer;
+  transition: transform 0.5s ease;
+  transition: filter 0.5s ease;
+}
+
+.fire-cr:hover{
+  filter: drop-shadow(0 0 15px orange)
+          drop-shadow(0 0 30px red);
+  transform: translateY(-50px);
+}
+
+.Aysu:hover{
+  filter: drop-shadow(0 0 15px rgb(107, 193, 217))
+          drop-shadow(0 0 30px rgb(86, 185, 221));
+  transform: translateY(-50px);
+}
+
+.Urvi:hover{
+  filter: drop-shadow(0 0 15px rgb(13, 74, 16))
+          drop-shadow(0 0 30px rgb(138, 207, 151));
+  transform: translateY(-50px);
+}
+
+.Aria:hover{
+  filter: drop-shadow(0 0 15px rgb(114, 60, 208))
+          drop-shadow(0 0 30px rgb(228, 213, 252));
+  transform: translateY(-50px);
+}
+

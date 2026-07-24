@@ -1,0 +1,40 @@
+body{
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url('../art_work/kingdome.jpg');
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.home-screen {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1{
+  font-size: 230px;
+  text-align: center;
+  color:rgb(203, 211, 246);
+}
+
+p{
+  font-size: 150px;
+  text-align: center;
+  color:rgb(203, 211, 246);
+}
+
+.start-btn{
+  transition: transform 0.5s ease;
+  transition: filter 0.5s ease;
+}
+
+.start-btn:hover{
+  transform: translateY(-20px) ;
+  filter: drop-shadow(0 0 15px rgb(246, 246, 26))
+  drop-shadow(0 0 30px rgb(174, 214, 179))
+}
